@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Pricing Suite]">
+  <test name="PriceSmokeTest">
+    <groups>
+      <run>
+        <include name="pricing"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.apttus.admin.SmokeSuite"/>
+    </classes>
+  </test> <!-- PriceSmokeTest -->
+  <test name="PriceSmokeTest(failed)">
+    <groups>
+      <run>
+        <include name="pricing"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.apttus.admin.SmokeSuite">
+        <methods>
+          <include name="PriceRulesetValidation"/>
+          <include name="PriceListValidation"/>
+          <include name="PricePipelineValidation"/>
+          <include name="DisablePriceToggle"/>
+          <include name="PriceListMandatoryFields"/>
+        </methods>
+      </class> <!-- com.apttus.admin.SmokeSuite -->
+    </classes>
+  </test> <!-- PriceSmokeTest(failed) -->
+</suite> <!-- Failed suite [Pricing Suite] -->

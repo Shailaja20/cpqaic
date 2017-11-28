@@ -1,0 +1,40 @@
+{
+	"createProduct": {
+		"name": "mehdi",
+		"code": "21"
+	},
+	"createProduct2": {
+		"name": "mehdi",
+		"age": "21"
+	},
+	"CreatePriceList": {
+		"productName": "SH-SmokeTest",
+		"descp": "SmoketestDescription",
+		"effectDate": "10/21/2017",
+		"expDate": "20/10/2018",
+		"adjAmnt": "2000",
+		"account": "Price Factor",
+		"costModel": "CostmodelSmokeTest",
+		"contractNumber": "NumberSmokeTest",
+		"guidePage": "SmokeTestGuidePage"
+	},
+	
+	"PriceListMandatoryFields":{
+	"productName":"SanityTest"
+	},
+	
+	"DisablePriceToggle":{
+	"productName":"Test-Toggle"
+	},
+	
+	"CreateNewRuleSet":{
+	"RuleSetName":"TestRuleSet",
+	"RuleSetSequence":"2",
+	"RuleSetShortDescp":"Short Descp for Price Rule Set Page",
+	"RuleSetEffectDate":"10/19/2017",
+	"RuleSetExpDate":"10/28/2017",
+	"RuleSetPriceList":"SmokeTest",
+	"RuleSetProductCategory":"HG Test Category",
+	"RuleSetProductGroup":"grouptest"
+	}
+}

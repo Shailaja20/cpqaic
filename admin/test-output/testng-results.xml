@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Found element with id cred_userid_inputtext]]>
+    </line>
+    <line>
+      <![CDATA[Found element with id cred_userid_inputtext]]>
+    </line>
+    <line>
+      <![CDATA[Found element with id cred_password_inputtext]]>
+    </line>
+    <line>
+      <![CDATA[Found element with id cred_password_inputtext]]>
+    </line>
+    <line>
+      <![CDATA[Found element 'Sign in' with id cred_sign_in_button]]>
+    </line>
+    <line>
+      <![CDATA[Found element 'Manage Price Ruleset' with xpath //a[@aria-label='Manage Price Ruleset']]]>
+    </line>
+    <line>
+      <![CDATA[Found element 'New Price Ruleset' with xpath //button[text()='New Price Ruleset']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@name='name']/../input]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@name='name']/../input]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@name='sequence']/../input]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@name='sequence']/../input]]>
+    </line>
+    <line>
+      <![CDATA[Found element '    ' with xpath //*[@name='ShortDescription']/../textarea]]>
+    </line>
+    <line>
+      <![CDATA[Found element '    ' with xpath //*[@name='ShortDescription']/../textarea]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@placeholder='Effective Date']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@placeholder='Effective Date']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@placeholder='Expiration Date']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@placeholder='Expiration Date']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@aria-label='Price List']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@aria-label='Price List']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@aria-label='Product Category']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@aria-label='Product Category']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@aria-label='Product Group']]]>
+    </line>
+    <line>
+      <![CDATA[Found element with xpath //*[@aria-label='Product Group']]]>
+    </line>
+    <line>
+      <![CDATA[Found element 'Save' with xpath //a[text()='Save']]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="132279" started-at="2017-10-27T11:13:42Z" finished-at="2017-10-27T11:15:54Z">
+    <groups>
+      <group name="RulePage">
+        <method signature="SmokeSuite.CreateNewRuleSet()[pri:10, instance:com.apttus.admin.SmokeSuite@42d8062c]" name="CreateNewRuleSet" class="com.apttus.admin.SmokeSuite"/>
+      </group> <!-- RulePage -->
+    </groups>
+    <test name="Smoke Test Suite" duration-ms="132279" started-at="2017-10-27T11:13:42Z" finished-at="2017-10-27T11:15:54Z">
+      <class name="com.apttus.admin.SmokeSuite">
+        <test-method status="PASS" signature="LoginToDealMax(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apttus.admin.SmokeSuite@42d8062c]" name="LoginToDealMax" is-config="true" duration-ms="46192" started-at="2017-10-27T16:43:42Z" finished-at="2017-10-27T16:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[staging1.properties]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Found element with id cred_userid_inputtext]]>
+            </line>
+            <line>
+              <![CDATA[Found element with id cred_userid_inputtext]]>
+            </line>
+            <line>
+              <![CDATA[Found element with id cred_password_inputtext]]>
+            </line>
+            <line>
+              <![CDATA[Found element with id cred_password_inputtext]]>
+            </line>
+            <line>
+              <![CDATA[Found element 'Sign in' with id cred_sign_in_button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginToDealMax -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apttus.admin.SmokeTest@6043cd28]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-27T16:44:28Z" finished-at="2017-10-27T16:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="CreateNewRuleSet()[pri:10, instance:com.apttus.admin.SmokeSuite@42d8062c]" name="CreateNewRuleSet" duration-ms="86056" started-at="2017-10-27T16:44:28Z" description="Fill all the details of the Rule Set Page" finished-at="2017-10-27T16:45:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.apttus.admin.SmokeSuite.CreateNewRuleSet(SmokeSuite.java:216)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Found element 'Manage Price Ruleset' with xpath //a[@aria-label='Manage Price Ruleset']]]>
+            </line>
+            <line>
+              <![CDATA[Found element 'New Price Ruleset' with xpath //button[text()='New Price Ruleset']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@name='name']/../input]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@name='name']/../input]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@name='sequence']/../input]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@name='sequence']/../input]]>
+            </line>
+            <line>
+              <![CDATA[Found element '    ' with xpath //*[@name='ShortDescription']/../textarea]]>
+            </line>
+            <line>
+              <![CDATA[Found element '    ' with xpath //*[@name='ShortDescription']/../textarea]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@placeholder='Effective Date']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@placeholder='Effective Date']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@placeholder='Expiration Date']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@placeholder='Expiration Date']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@aria-label='Price List']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@aria-label='Price List']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@aria-label='Product Category']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@aria-label='Product Category']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@aria-label='Product Group']]]>
+            </line>
+            <line>
+              <![CDATA[Found element with xpath //*[@aria-label='Product Group']]]>
+            </line>
+            <line>
+              <![CDATA[Found element 'Save' with xpath //a[text()='Save']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewRuleSet -->
+      </class> <!-- com.apttus.admin.SmokeSuite -->
+    </test> <!-- Smoke Test Suite -->
+  </suite> <!-- Suite -->
+</testng-results>
